@@ -292,13 +292,18 @@ python tests/test_client.py
 
 ## 📈 Performance Metrics
 
-### Model Performance
-- **Accuracy**: 93.3%
-- **Precision**: 91.2%
-- **Recall**: 88.7%
-- **F1-Score**: 89.9%
-- **AUC-ROC**: 95.6%
 
+### Model Performance Metrics (Calculated from Confusion Matrix)
+
+| Metric | Value |
+|--------|-------|
+| **Accuracy** | **87.83%** |
+| **Precision** | **88.68%** |
+| **Recall** | **85.45%** |
+| **F1-Score** | **87.04%** |
+| **AUC-ROC** | **87.73%** |
+
+---
 ### API Performance
 - **Average Response Time**: < 200ms
 - **Throughput**: 100+ req/s
